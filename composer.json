@@ -1,0 +1,21 @@
+{
+    "name": "pattonwebz/theme-php-version-support-check",
+    "description": "A class used to do PHP version checking on theme activation and revert if min PHP version not met.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "William Patton",
+            "email": "will@pattonwebz.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "MinPHPVersionMetCheck.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "5.6"
+    }
+}
